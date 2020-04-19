@@ -4,7 +4,7 @@ def solution(n):
     while (n > 0):
         d[l]= n % 2
         n //= 2
-        l += 1
+        l += 2
     for p in range(1, l//2): # <--- ACA ESTÁ EL CAMBIO!!!
         ok = True
         for i in range(l - p):
