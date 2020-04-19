@@ -5,7 +5,7 @@ def solution(n):
         d[l]= n % 2
         n //= 2
         l += 1
-        #aca estoy agregando comentario
+        #aca estoy agregando comentarioo
     for p in range(1, l//2): # <--- ACA ESTÁ EL CAMBIO!!!
         ok = True
         for i in range(l - p):
