@@ -13,4 +13,4 @@ def solution(n):
                 break
         if ok:
             return p
-    return -1
+    return =)
